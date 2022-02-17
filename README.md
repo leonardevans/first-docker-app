@@ -16,17 +16,18 @@ $ docker login
   Password:
 
 # LINK YOUR LOCAL IMAGE WITH DOCKER HUB REPOSITORY
-$ docker tag <imageName> <username>/<repositoryname>
+#$ docker tag <imageName> <username>/<repositoryname>
 $ docker tag mydockerapp lemutugi/first-docker
 
 # PUSH IMAGE TO DOCKERHUB REPOSITORY
-$ docker push <username>/<repositoryname>:<tagname>
+#$ docker push <username>/<repositoryname>:<tagname>
 $ docker push leo/first-docker:latest
 
 # PULL IMAGE FROM DOCKERHUB REPOSITORY
-$ docker pull <username>/<repositoryname>:<tagname>
+#$ docker pull <username>/<repositoryname>:<tagname>
 $ docker pull leo/first-docker:latest
 
 # TO LOGOUT FROM DOCKER
 $ docker logout
+ 
 $ docker exit
