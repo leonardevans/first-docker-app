@@ -1,14 +1,14 @@
 # first-docker-app
-My first docker app pushed on docker hub
+My first  app pushed on docker hub
 
 # CREATING A DOCKER IMAGE
-Navigate to the docker file location
-execute the below command
+Navigate to the docker file location and execute the following command: 
 $ docker build -f Dockerfile -t mydockerapp
 
 # TO RUN PROJECT FROM GENERATED IMAGE
 $ docker run -p 9900:8080 mydockerapp
-here, 80080 is source port and 9900 is the masking port
+
+here, 8080 is source port and 9900 is the masking port
 
 # LOGIN TO DOCKER HUB
 $ docker login
